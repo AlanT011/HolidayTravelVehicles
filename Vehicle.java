@@ -14,4 +14,13 @@ public class Vehicle{
         this.year = year;
         this.cost = cost;
     }
+
+     @Override
+    public String toString() {
+        return  "serialNumber='" + serialNumber  +
+                ", name='" + name +
+                ", model='" + model +
+                ", year='" + year +
+                ", cost=" + cost ;
+    }
 }

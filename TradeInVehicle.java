@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class TradeInVehicle{
     private String serialNumber;
     private String make;
